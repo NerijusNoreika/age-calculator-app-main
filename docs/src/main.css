@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --offWhite: hsl(0, 0%, 94%);
+    --lightGrey: hsl(0, 0%, 86%);
+    --smokeyGrey: hsl(0, 1%, 44%);
+    --offBlack: hsl(0, 0%, 8%);
+}
+
+.white {
+    background: var(--white);
+}
+
+.offWhite {
+    background: var(--offWhite);
+}
+.lightGrey {
+    background: var(--lightGrey);
+}
+.smokeyGrey {
+    background: var(--smokeyGrey);
+}
+.offBlack {
+    background: var(--offBlack);
+}
